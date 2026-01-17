@@ -41,6 +41,9 @@ export default function Navbar() {
                 <Link to="/tasks" className="text-white hover:text-blue-200 transition-colors duration-200 font-medium whitespace-nowrap">
                   Tasks
                 </Link>
+                <Link to="/focus" className="text-white hover:text-blue-200 transition-colors duration-200 font-medium whitespace-nowrap">
+                  Focus
+                </Link>
                 <Link to="/reports" className="text-white hover:text-blue-200 transition-colors duration-200 font-medium whitespace-nowrap">
                   Reports
                 </Link>
@@ -83,6 +86,7 @@ export default function Navbar() {
               <>
                 <Link to="/" className="block text-white/90 hover:text-white font-medium">Dashboard</Link>
                 <Link to="/tasks" className="block text-white/90 hover:text-white font-medium">Tasks</Link>
+                  <Link to="/focus" className="block text-white/90 hover:text-white font-medium">Focus</Link>
                 <Link to="/reports" className="block text-white/90 hover:text-white font-medium">Reports</Link>
               </>
             )}
