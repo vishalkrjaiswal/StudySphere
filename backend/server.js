@@ -36,7 +36,6 @@ app.get('/health', (_req, res) => {
 // Routes
 app.use('/auth', authRoutes);
 app.use('/tasks', taskRoutes);
-
 // Global error handler
 app.use((err, _req, res, _next) => {
   const status = err.status || 500;
