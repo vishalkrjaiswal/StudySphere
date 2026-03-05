@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: CLIENT_ORIGIN,
+    origin:"https://study-sphere-phi.vercel.app/",
     credentials: true,
   })
 );

@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './auth';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8001',
+  baseURL:"https://studysphere-6qlf.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
