@@ -4,7 +4,7 @@ import cors from "cors";
 import helmet from 'helmet';
 import morgan from 'morgan';
 import cookieParser from "cookie-parser";
-import { connectDB } from "./utils/db.js";
+import { connectDB } from "./src/utils/db.js";
 
 dotenv.config();
 
